@@ -1,0 +1,140 @@
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 25pt;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section{
+  
+ width: 70%;
+  margin: 0 auto;
+
+}
+.send{
+  display: flex;
+  width: 70%;
+
+  justify-content: space-evenly;
+}
+.send input {
+  background: none;
+  width: 70%;
+  font-size: 14pt;
+  color: rgb(255, 255, 255);
+  border:none;
+  border-bottom: 2px solid rgb(225, 255, 93);
+}
+.send button{
+  cursor: pointer;
+  background: rgb(225, 255, 93);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px rgb(225, 255, 93);
+
+}
+.send button:hover{
+  background: rgb(164, 196, 24);
+  color: white;
+}
+.list{
+ display: flex;
+ width: 70%;
+ margin-top: 10px;
+ background: rgb(52, 3, 167);
+ justify-content: space-evenly;
+ align-items: center;
+ 
+}
+.list li{
+  list-style-type: none;
+  width: 70%;
+  font-size: 15pt;
+  background: rgb(52, 3, 167);
+  color: white;
+  padding: 7px 0px 7px 0px;
+}
+.list button{
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  margin-right: 4px;
+  color: white;
+  border-radius: 3px;
+}
+.save{
+ display: flex;
+ margin-top: 50px;
+ justify-content: center;
+}
+.save button{
+  background: rgb(17, 0, 255);
+ 
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.Create{
+  background: rgb(52, 3, 167);
+  border: 2px solid rgba(128, 128, 128, 0.425);
+  width: 49%;
+ 
+}
+
+.Create div{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+label{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 15pt;
+}
+.Create input{
+  width: 50%;
+  background: none;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 15pt;
+  border-bottom: 2px solid #e1ff5d;
+}
+.title{
+  display: flex;
+  align-items: center;
+ }
+.todos{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgb(224, 213, 213);
+}
+.Create button{
+  background: rgb(32, 32, 255);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Create select{
+  max-height: 30px;
+}
+.Create  option{
+  padding: 20px;
+  text-align: center;
+}
